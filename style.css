@@ -11,7 +11,8 @@ body {
   align-items: center;
   height: 100vh;
   overflow:hidden;
-  
+}
+
   #container {
   color: #d7dfe4;
   }
@@ -92,7 +93,7 @@ body {
   background-color: #ee42a6;
 }
   
-#laps
+#laps {
   margin-top: 100px;
   text-align: center;
   font-size: 25px;
