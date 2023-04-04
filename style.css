@@ -21,4 +21,79 @@ body {
     bottom: 10%;
   }
   
+  .digit {
+    font-size: 150px;
+    font-weight: bold;
+  }
   
+  .txt {
+    font-size: 50px;
+    font-weight: bold;
+  }
+  
+  .social-txt {
+    font-size: 30px;
+    color: white;
+  }
+  
+  #btn-container {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .btn {
+    padding: 8px 26px;
+    font-size: 15px;
+    margin: 0px 10px;
+    color: white;
+    border: 0px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #start {
+    background-color: #1abc9c;
+  }
+  
+  #start :hover {
+    background-color: yellow;
+  }
+  
+  #stop {
+    background-color: #ff0000;
+  }
+  
+  #reset {
+    background-color: #0400fc;
+  }
+  
+  @media screen and (max-width:850px){
+    #time span{
+      font-size: 4rem;
+  }
+    
+  #time{
+    display:flex;
+    flex-direction: column;
+  }
+  
+  #container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+  
+#lap {
+  background-color: rgb(165, 18, 212);
+}
+  
+#clearlap {
+  background-color: #ee42a6;
+}
+  
+#laps
+  margin-top: 100px;
+  text-align: center;
+  font-size: 25px;
+}
