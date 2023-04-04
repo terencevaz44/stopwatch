@@ -14,7 +14,7 @@ function start() {
  stopwatch();
 }
 
-function stop[() {
+function stop() {
   timer=false;
   
     hr = 0;
@@ -76,7 +76,7 @@ function stop[() {
       laps.innerHTML += "<li>" + hr + ":" + min + ":" + sec +":" + count + "</li>";
       }
       
-      functiopn clearLap() {
+      function clearLap() {
         $id('laps').remove();
       }
       
