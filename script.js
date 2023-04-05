@@ -18,9 +18,9 @@ function stop() {
   timer=false;
 }
 
-function stop() {
+function reset() {
     timer=false;
-}
+
     hr = 0;
     min = 0;
     sec = 0;
@@ -30,8 +30,9 @@ function stop() {
     $id("min").innerHTML = "00";
     $id("sec").innerHTML = "00";
     $id("count").innerHTML = "00"; 
-  }
-  function stopwatch() {
+}
+  
+   function stopwatch() {
     if (timer == true)
         count = count + 1;
 
