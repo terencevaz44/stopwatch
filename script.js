@@ -16,7 +16,11 @@ function start() {
 
 function stop() {
   timer=false;
-  
+}
+
+function stop() {
+    timer=false;
+}
     hr = 0;
     min = 0;
     sec = 0;
@@ -68,7 +72,7 @@ function stop() {
     $id("sec").innerHTML = secString;
     $id("count").innerHTML = countString;
     timeoutId = setTimeout("stopwatch()", 10);
-    }
+  }
     
     function lap() {
       console.log(hr,min,sec,count)
